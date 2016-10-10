@@ -19,5 +19,5 @@ The data set used in this project is [Human Activity Recognition Using Smartphon
   * Name `y_merged` as "activity"
   * Name `subject_merged` as "subject"
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject:
-  * Use ddply to calculate each average of each combination of activity and subject to get average_data.
+  * Use `ddply` function to calculate each average of each combination of 6 activities and 30 subjects to get 180 rows of average_data.
 7. Write average_data into 'average_data.txt'
